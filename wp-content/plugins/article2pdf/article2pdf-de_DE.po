@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: article2pdf wp plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-05 13:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marc Schieferdecker <m_schieferdecker@hotmail.com>\n"
+"Language-Team: das-motorrad-blog.de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Dokumente und Einstellungen\\xschiem\\Desktop\\tmp\\_poedit\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: article2pdf.php:680
+msgid "All expired cache files deleted."
+msgstr "Alle veralteten Dateien im Cache wurden gelöscht."
+
+#: article2pdf.php:683
+#: article2pdf.php:705
+#: article2pdf.php:1022
+#: article2pdf.php:1170
+msgid "Sorry, the cache directory is not writeable. Please chmod the directory to a permission that allows the webserver to write into that directory."
+msgstr "Ups, das Cacheverzeichnis is nicht schreibbar. Bitte verwende chmod um das Verzeichnis mit Rechten zu versehen, die dem Webserver erlauben in dieses Verzeichnis zu schreiben."
+
+#: article2pdf.php:702
+msgid "All cache files deleted."
+msgstr "Alle Cachedateien wurden gelöscht."
+
+#: article2pdf.php:717
+msgid "The file was successfully deleted."
+msgstr "Die Datei wurde erfolgreich entfernt."
+
+#: article2pdf.php:721
+msgid "Sorry, the deletion of the file failed. Maybe the directory is not writeable from the webserver?"
+msgstr "Sorry, das Löschen ist fehlgeschlagen. Eventuell ist das Verzeichnis für den Webserver nicht schreibbar?"
+
+#: article2pdf.php:726
+msgid "Sorry, we can't delete the file that is currently set as template file."
+msgstr "Sorry, die Datei, die du gerade als Vorlage ausgewählt hast, kann nicht gelöscht werden."
+
+#: article2pdf.php:731
+msgid "No file selected, no file deleted. That was easy..."
+msgstr "Keine Datei gewählt, keine Datei gelöscht. Das war einfach..."
+
+#: article2pdf.php:749
+msgid "Upload successful. Now you can use the pdf file as template. Just configure that in the article2pdf options."
+msgstr "Übertragung erfolgreich. Du kannst die neue Datei nun als PDF Vorlage verwenden. Wähle die Datei einfach in den Einstellungen als Vorlage."
+
+#: article2pdf.php:754
+msgid "Sorry, the file could not moved to the target directory. Maybe the directory is not writeable from the webserver?"
+msgstr "Die Datei kann nicht ins Zielverzeichnis verschoben werden. Möglicherweise ist das Verzeichnis für den Webserver nicht schreibbar?"
+
+#: article2pdf.php:760
+msgid "This is not a pdf file. Upload failed."
+msgstr "Das ist keine PDF Datei. Übertragung fehlgeschlagen."
+
+#: article2pdf.php:766
+msgid "Sorry, the directory is not writeable by the webserver. Please set the correct owner."
+msgstr "Sorry, das Zielverzeichnis ist für den Webserver nicht beschreibbar. Bitte setze den richten Besitzer oder erweiterte Rechte für das Verzeichnis."
+
+#: article2pdf.php:772
+msgid "No upload file? Sorry, dave..."
+msgstr "Keine Datei ausgewählt? Sorry, Dave..."
+
+#: article2pdf.php:808
+msgid "Options updated."
+msgstr "Optionen geändert."
+
+#: article2pdf.php:813
+msgid "article2pdf plugin admin page"
+msgstr "article2pdf plugin konfigurieren"
+
+#: article2pdf.php:821
+msgid "article2pdf options"
+msgstr "article2pdf Einstellungen"
+
+#: article2pdf.php:823
+msgid "PDF template file"
+msgstr "PDF Vorlagedatei"
+
+#: article2pdf.php:826
+msgid "Enter the absolute path to the directory where the pdf template files were stored. Important: The directory MUST be writeable by the webserver. The last character MUST be a slash.<br/>Hint: After changing this you have to upload a new pdf template file to that directory."
+msgstr "Gib den absoluten Pfad zu dem Verzeichnis ein, in welchem die PDF Vorlagedateien abgelegt werden sollen. Wichtig: Das Verzeichnis MUSS vom Webserver schreibbar sein. Das letzte Zeichen MUSS ein Slash sein.<br/>Hinweis: Wenn du das Verzeichnis änderst, musst du deine PDF Vorlagedatei neu hochladen."
+
+#: article2pdf.php:831
+msgid "Sorry, the template directory is not writeable. Please chmod the directory to a permission that allows the webserver to write into that directory or upload your templates with FTP."
+msgstr "Ups, das Templateverzeichnis ist nicht schreibbar. Bitte verwende chmod um das Verzeichnis mit Rechten zu versehen, die dem Webserver erlauben in dieses Verzeichnis zu schreiben oder lade deine PDF Vorlage mit FTP hoch."
+
+#: article2pdf.php:835
+msgid "Try to create this directory on change? (e.g. if your enter something like '[...]/wp-content/uploads/pdftemplates' what is always a good choice!)"
+msgstr "Soll versucht werden beim Ändern des Verzeichnisses das neue Verzeichnis zu erstellen? (z.B. wenn du etwas eingibst wie '[...]/wp-content/uploads/pdftemplates' was übrigens immer eine gute Wahl ist!)"
+
+#: article2pdf.php:837
+#: article2pdf.php:906
+#: article2pdf.php:918
+#: article2pdf.php:1035
+msgid "Yes, do that!"
+msgstr "Klar, mach das!"
+
+#: article2pdf.php:840
+#, fuzzy, php-format
+msgid "To use a pdf file as template for your generated pdf files, just place the template file in %%templatepath%% and choose the file from the select box."
+msgstr "Um eine PDF Datei als Vorlage für die generierten Dateien zu wählen, lade bitte die Vorlage in das Verzeichnis %%templatepath%% und wähle die Datei dann in der Auswahlbox aus."
+
+#: article2pdf.php:843
+#: article2pdf.php:862
+msgid "none"
+msgstr "keine"
+
+#: article2pdf.php:859
+msgid "Select different template file to use for converting pages into the pdf format. If you select nothing, the standard template file will be used."
+msgstr "Wähle eine andere Vorlagedatei die benutzt werden soll, um statische Seiten in PDF Dateien zu verwandeln. Wenn du nichts auswählst, wird die Standardvorlage verwendet."
+
+#: article2pdf.php:880
+#, php-format
+msgid "Warning! The template path you have selected is not safe because the templates are stored under the plugin directory. If you update a plugin with the WordPress built in automatic plugin update feature ALL FILES in the article2pdf plugin directory were deleted - including your pdf template files. So if you don't want to upload the pdf template file again after every update, here a suggestion of a good template path: %%suggestion%% (be sure to activate 'Try to create this directory on change')."
+msgstr "Achtung! Das Template Verzeichnis, das du dir ausgesucht hast ist nicht sicher, weil die Vorlagen unterhalb des Pluginverzeichnisses gespeichert werden. Wenn du nun das article2pdf Plugin mit der eingebauten WordPress Plugin Updatefunktion auf den neusten Stand bringst, löscht WordPress ALLE DATEIEN in dem article2pdf Pluginverzeichnis - auch eine Vorlagedateien. Wenn du also nicht nach jedem Update deine PDF Vorlagedatei erneut hochladen willst, hier ein Vorschlag für einen guten Vorlagepfad: %%suggestion%% (bitte aktiviere unbedingt 'Soll versucht werden beim Ändern des Verzeichnisses das neue Verzeichnis zu erstellen')."
+
+#: article2pdf.php:886
+msgid "PDF Page Margins (unit is millimeters)"
+msgstr "PDF Seitenränder"
+
+#: article2pdf.php:889
+msgid "Set your page margins here..."
+msgstr "Bitte stell hier deine Seitenränder ein"
+
+#: article2pdf.php:899
+msgid "Include pictures into the pdf file?"
+msgstr "Bilder in die PDF einbinden?"
+
+#: article2pdf.php:902
+msgid "Set if pictures in the article should be included into the generated pdf file."
+msgstr "Aktiviere diese Option und die Bilder eines Artikels werden in die generierte PDF eingebunden."
+
+#: article2pdf.php:905
+#: article2pdf.php:917
+#: article2pdf.php:1034
+msgid "No, please not"
+msgstr "Nein, bitte nicht"
+
+#: article2pdf.php:911
+msgid "Output publication date before the post title?"
+msgstr "Veröffentlichungsdatum vor den Titel des Beitrags setzen?"
+
+#: article2pdf.php:914
+msgid "Set if the publication date should be printed at the beginning of the post title."
+msgstr "Aktiviere diese Option und das Veröffentlichungsdatum wird vor den Titel des Beitrags gesetzt."
+
+#: article2pdf.php:922
+msgid "Output the publication date on pages also?"
+msgstr "Veröffentlichungsdatum auch auf Seiten vor den Titel des Beitrags setzen?"
+
+#: article2pdf.php:925
+msgid "No, only posts get a date!"
+msgstr "Nein, nur Artikel bekommen ein Datum."
+
+#: article2pdf.php:926
+msgid "Yes, pages get a date also!"
+msgstr "Ja, Seiten erhalten auch ein Datum."
+
+#: article2pdf.php:931
+msgid "Use date format"
+msgstr "Verwendetes Datumsformat"
+
+#: article2pdf.php:934
+msgid "Define the date format used for printing out the date. Read http://php.net/strftime if you are uncertain what to enter."
+msgstr "Definiere hier das Datumsformat, das für die Ausgabe des Datums verwendet wird. Wenn du unsicher bist, was du hier eingeben sollst, schau mal hier: http://php.net/strftime"
+
+#: article2pdf.php:940
+msgid "Use date locale"
+msgstr "Verwendetes lokales Ausgabeformat"
+
+#: article2pdf.php:943
+msgid "Define the date format locale information, eg: de_DE for Germany, nl_NL for netherlands, en_US, for the States and so on."
+msgstr "Definiere hier das lokale Ausgabeformat für das Datum, z.B.: de_DE für Deutschland, nl_NL für Niederländerung, oder en_US für amerikanisches Englisch"
+
+#: article2pdf.php:949
+msgid "Use font"
+msgstr "Verwendete Schriftart"
+
+#: article2pdf.php:952
+msgid "Define the font that is used to generate text in the pdf file."
+msgstr "Lege die Schriftart fest, die in den erzeugten PDF Dateien verwendet wird."
+
+#: article2pdf.php:962
+msgid "Use font size"
+msgstr "Benutze die Schriftgröße"
+
+#: article2pdf.php:965
+msgid "Enter the font size that should be used when writing text."
+msgstr "Bitte gib hier die Schriftgröße ein, die verwendet werden soll, wenn Text geschrieben wird."
+
+#: article2pdf.php:971
+msgid "Line height"
+msgstr "Zeilenabstand"
+
+#: article2pdf.php:974
+msgid "Use the given line heigth. Hint: Set it to half of the fontsize and you will get good results."
+msgstr "Benutze den angegebenen Zeilenabstand. Tipp: Wähle die Hälfte der Schriftgröße, das führt in der Regel zu guten Ergebnissen."
+
+#: article2pdf.php:980
+msgid "Display page count"
+msgstr "Seitenzahl anzeigen"
+
+#: article2pdf.php:982
+msgid "If you don't want to use this feature just enter nothing and save."
+msgstr "Wenn du dieses Feature nicht benutzen willst, gib überall nichts ein."
+
+#: article2pdf.php:984
+msgid "Enter the X position where the page count will be inserted (in mm, from left)"
+msgstr "Gib die X Position an, wo die Seitenzahl eingefügt wird (in mm, von links)"
+
+#: article2pdf.php:989
+msgid "Enter the Y position where the page count will be inserted (in mm, from top)"
+msgstr "Gib die Y Position an, wo die Seitenzahl eingefügt wird (in mm, von oben)"
+
+#: article2pdf.php:994
+#, php-format
+msgid "Enter the string to be printed (%%page%% is replaced by the actual page number and %%pagestotal%% by the total count of pages, e.g.: Page %%page%% of %%pagestotal%%)"
+msgstr "Gib die Zeichenkette ein, die ausgegeben wird (%%page%% wird durch die aktuelle Seite ersetzt und %%pagestotal%% durch die Gesamtanzahl der Seiten, z.B.: Seite %%page%% von %%pagestotal%%)"
+
+#: article2pdf.php:999
+msgid "Enter the font size of the string"
+msgstr "Bitte gib hier die Schriftgröße ein die verwendet werden soll, wenn Text geschrieben wird."
+
+#: article2pdf.php:1005
+msgid "Cache options"
+msgstr "Cache Einstellungen"
+
+#: article2pdf.php:1008
+msgid "Enter the absolute path to the directory where the cache files were stored. Only modify if you got problems with the default value (try '/tmp/' if nothing works). Important: The directory MUST be writeable by the webserver. The last character MUST be a slash."
+msgstr "Gib den absoluten Pfad zu dem Verzeichnis ein, in welchem die Cachedateien abgelegt werden sollen. Bitte ändere dies nur, wenn es Probleme mit der Standardeinstellung gibt (versuch mal '/tmp/' wenn es gar nicht klappt. Wichtig: Das Verzeichnis MUSS vom Webserver schreibbar sein. Das letzte Zeichen MUSS ein Slash sein."
+
+#: article2pdf.php:1013
+msgid "Enter the time in seconds that pdf files are delivered from cache before they are recreated. Enter 0 to deactivate caching."
+msgstr "Gib bitte die Zeit in Sekunden ein, die das PDF aus dem Cache geliefert wird, bevor die Datei neu generiert wird. Gib 0 ein, um das Cachen zu deaktivieren."
+
+#: article2pdf.php:1016
+msgid "Popular values: 3600 = 1 hour, 21600 = 6 hours, 86400 = 1 day"
+msgstr "Beliebte Werte: 3600 = 1 Stunde, 21600 = 6 Stunden, 86400 = 1 Tag"
+
+#: article2pdf.php:1028
+msgid "Deny generated pdf files to search enging spiders"
+msgstr "Verbiete Suchmaschinenspidern den Zugriff auf generierte PDF Dateien"
+
+#: article2pdf.php:1031
+msgid "If you don't want search engine spiders to crawl your pdf documents activate the following option. The plugin will send a '410 GONE' response to the crawlers."
+msgstr "Wenn du nicht willst, dass Suchmaschinenspider deine PDF Dokumente indizieren, aktiviere die folgende Option. Das Plugin sendet dann einen '410 GONE' Fehler an die Crawler."
+
+#: article2pdf.php:1040
+msgid "PDF download redirect method"
+msgstr "PDF Download Weiterleitungsmethode"
+
+#: article2pdf.php:1043
+#, php-format
+msgid "Please select how the user get redirected to the plugin file that sends the PDF as download to the browser. 99% can select HTTP here, but if you got problems select JavaScript."
+msgstr "Bitte wähle, wie der Besucher zur Plugindatei weitergeleitet wird, welche die PDF Datei als Download an den Browser sendet. 99% können hier HTTP auswählen, aber wenn es Probleme gibt, wähle JavaScript."
+
+#: article2pdf.php:1046
+msgid "HTTP"
+msgstr "HTTP"
+
+#: article2pdf.php:1047
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: article2pdf.php:1052
+msgid "This path is used to temporarily store the pdf file before sending it to the user. If there are problems set the same path as the cache path here. Or set any path that is writeable to the webserver."
+msgstr "Dieser Pfad wird benutzt, um die PDF Dateien temporär zu speichern, bevor diese an den Nutzer gesendet werden. Wenn Probleme mit diesem Pfad auftauchen, verwende den gleichen Pfad wie das Cacheverzeichnis. Oder wähle irgendein anderes Verzeichnis, das durch den Webserver schreibbar ist."
+
+#: article2pdf.php:1057
+msgid "Sorry, the temp file directory is not writeable. Please chmod the directory to a permission that allows the webserver to write into that directory or use another directory."
+msgstr "Ups, das Tempverzeichnis ist nicht schreibbar. Bitte verwende chmod um das Verzeichnis mit Rechten zu versehen, die dem Webserver erlauben in dieses Verzeichnis zu schreiben, oder wähle ein anderes Verzeichnis."
+
+#: article2pdf.php:1062
+msgid "PDF link theme integration"
+msgstr "PDF Link Theme Integration"
+
+#: article2pdf.php:1065
+msgid "If you want that a link for downloading a page or post as a pdf file ist automatically added at the bottom of the content, please enter the link text here (e.g.: PDF version). If you want to integrate the link manually in your theme (like described in the installation notes and the FAQ) leave this blank."
+msgstr "Wenn du willst, dass ein Link zum downloaden der Seite oder des Artikels als PDF Datei automatisch am Ende des Beitrags hinzugefügt wird, gib hier bitte den Linktext ein (z.B. PDF Version). Wenn du den Link lieber manuell in dein Theme einbauen willst (wie in der Installationsanleitung und der FAQ beschrieben), dann gib hier nichts ein."
+
+#: article2pdf.php:1069
+msgid "Update options"
+msgstr "Optionen speichern"
+
+#: article2pdf.php:1080
+msgid "Upload a new pdf template file"
+msgstr "Eine neue PDF Vorlagedatei hochladen"
+
+#: article2pdf.php:1082
+msgid "Choose pdf template file from your local disk"
+msgstr "Bitte wähle eine PDF Datei von deiner lokalen Festplatte"
+
+#: article2pdf.php:1088
+msgid "Important: The directory /wp-content/plugins/article2pdf/contributed/pdftemplates must be writeable for your webserver, or the upload will fail. If you have problems, set the owner and group of the directory to the user and group of your webserver (chown www-user.www-group for example)."
+msgstr "Wichtig: Der Webserver muss in das Verzeichnis /wp-content/plugins/article2pdf/contributed/pdftemplates schreiben können. Bei Problemen setze den Benutzer und die Gruppe des Verzeichnisses auf den Benutzer und die Gruppe, den der Webserver verwendet (chown www-user.www-group zum Beispiel)."
+
+#: article2pdf.php:1089
+msgid "Upload file"
+msgstr "Datei übertragen"
+
+#: article2pdf.php:1100
+msgid "Delete a pdf template file"
+msgstr "PDF Vorlagedatei löschen"
+
+#: article2pdf.php:1102
+msgid "Choose template file and submit the form"
+msgstr "Bitte wähle die Vorlagedatei, die du löschen willst"
+
+#: article2pdf.php:1108
+msgid "Important: Do not choose the template file that is currently in use. The file will not be deleted if you do."
+msgstr "Wichtig: Bitte wähle nicht die in den Einstellungen aktuell ausgewählte Vorlagedatei. Diese wird nicht gelöscht, falls du das versuchst."
+
+#: article2pdf.php:1109
+msgid "Delete file"
+msgstr "Datei löschen"
+
+#: article2pdf.php:1122
+msgid "Cache status"
+msgstr "Cache Status"
+
+#: article2pdf.php:1124
+msgid "List of cached files (red: expired, green: pdf is delivered from cache)"
+msgstr "Liste der Dateien im Cache (rot: wird neu generiert, grün: pdf wird aus dem cache geliefert)"
+
+#: article2pdf.php:1127
+msgid "Sort by:"
+msgstr "Sortiere nach:"
+
+#: article2pdf.php:1127
+msgid "state"
+msgstr "Status"
+
+#: article2pdf.php:1127
+msgid "name"
+msgstr "Name"
+
+#: article2pdf.php:1164
+msgid "Really delete?"
+msgstr "Wirklich löschen?"
+
+#: article2pdf.php:1164
+msgid "delete"
+msgstr "löschen"
+
+#: article2pdf.php:1168
+msgid "Sorry, no files are cached at the moment."
+msgstr "Ups, im Augenblick sind keine Dateien im Cache."
+
+#: article2pdf.php:1172
+msgid "Caching is disabled."
+msgstr "Das Caching ist abgeschaltet."
+
+#: article2pdf.php:1178
+msgid "files are cached."
+msgstr "Dateien sind gecached."
+
+#: article2pdf.php:1179
+msgid "files are cached and outdated."
+msgstr "Dateien sind im Cache und veraltet."
+
+#: article2pdf.php:1180
+msgid "files are cached total."
+msgstr "Dateien sind insgesamt im Cache."
+
+#: article2pdf.php:1183
+msgid "Delete all cache files and force recreation"
+msgstr "Alle Dateien löschen und so das Neugenerieren erzwingen"
+
+#: article2pdf.php:1183
+msgid "Delete all expired cache files"
+msgstr "Alle veralteten Dateien im Cache löschen"
+
+#: article2pdf.php:1194
+msgid "PDF creation testsuite"
+msgstr "PDF Erstellung Testumgebung"
+
+#: article2pdf.php:1196
+msgid "Copy and paste the post html from your blog into the field and submit the form."
+msgstr "Kopiere den HTML Code von deinem Blog, füge ihn in das Feld ein und sende das Formular ab."
+
+#: article2pdf.php:1198
+msgid "Don't send PDF for download. Just display the pdf source and possible failures for debugging."
+msgstr "Sende die PDF nicht zum Download, sondern stelle den PDF Quellcode und mögliche Fehler zum debuggen dar."
+
+#: article2pdf.php:1199
+msgid "Create test pdf file"
+msgstr "Erstelle test PDF Datei"
+
+#: article2pdf.php:1208
+msgid "Donate &amp; support"
+msgstr "Spenden &amp; Hilfe"
+
+#: article2pdf.php:1210
+msgid "Please"
+msgstr "Bitte"
+
+#: article2pdf.php:1210
+msgid "DONATE"
+msgstr "SPENDE"
+
+#: article2pdf.php:1210
+msgid "if you like this plugin."
+msgstr "wenn du dieses Plugin toll findest."
+
+#: article2pdf.php:1211
+msgid "Many thanks to Oliver for the great"
+msgstr "Vielen Dank an Oliver für die großartige"
+
+#: article2pdf.php:1211
+msgid "FPDF library"
+msgstr "FPDF Bibliothek"
+
+#: article2pdf.php:1212
+msgid "If you need support, want to report bugs or suggestions, drop me an "
+msgstr "Wenn du Hilfe brauchst, Bugs melden, oder Vorschläge machen willst, schreib mir eine "
+
+#: article2pdf.php:1212
+msgid "email"
+msgstr "E-Mail"
+
+#: article2pdf.php:1212
+msgid "or visit the"
+msgstr "oder besuche die"
+
+#: article2pdf.php:1212
+msgid "plugin homepage"
+msgstr "Plugin Webseite"
+
+#: article2pdf.php:1213
+msgid "Translations: "
+msgstr "Übersetzungen: "
+
+#: article2pdf.php:1214
+msgid "And this persons I thank for a donation:"
+msgstr "Und diesen Personen danke ich für eine Spende:"
+
+#: article2pdf.php:1215
+msgid "Final statements: Code is poetry. Motorcycles are cooler than cars."
+msgstr "Abschließende Statements: Code is poetry. Motorräder sind cooler als Autos."
+
+#~ msgid ""
+#~ "This path is used to temporarily store the pdf file before sending it to "
+#~ "the user:"
+#~ msgstr ""
+#~ "Dieser Pfad wird verwendet um die PDF Datei temporär zu speichern, bevor "
+#~ "sie an den Benutzer gesendet wird:"
+
+#, fuzzy
+#~ msgid ""
+#~ "To use a pdf file as template for your genereated pdf files, just place "
+#~ "the template file in /wp-content/plugins/article2pdf/contributed/"
+#~ "pdftemplates/ and choose the file from the select box."
+#~ msgstr ""
+#~ "Um eine PDF Datei als Vorlage für die generierten Dateien zu wählen, lade "
+#~ "bitte die Vorlage in das Verzeichnis %%templatepath%% und wähle die Datei "
+#~ "dann in der Auswahlbox aus."
+#~ msgid ""
+#~ "Define the font that is used to generate text in the pdf file, have a "
+#~ "look to the directory /wp-content/plugins/article2pdf/contributed/"
+#~ "pdffonts/ and find out which other fonts are available."
+#~ msgstr ""
+#~ "Definiere hier die Schriftart, die du in den generierten PDF Dateien "
+#~ "verwenden willst. Bitte wirf mal einen Blick in das Verzeichnis /wp-"
+#~ "content/plugins/article2pdf/contributed/pdffonts/. Dort kannst du "
+#~ "herausfinden, welche Schriftarten es gibt."
+

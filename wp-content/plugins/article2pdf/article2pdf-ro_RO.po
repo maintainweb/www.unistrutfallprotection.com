@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: article2pdf wp plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-21 13:05+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Robert Tudor <egipt@egt-design.com>\n"
+"Language-Team: das-motorrad-blog.de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: W:\\motorrad\\html\\wp-content\\plugins\\article2pdf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: article2pdf.php:444
+msgid "All cache files deleted."
+msgstr "Toate fisierele temporare au fost sterse."
+
+#: article2pdf.php:457
+msgid "The file was successfully deleted."
+msgstr "Fisierul a fost eliminat cu succes."
+
+#: article2pdf.php:461
+msgid "Sorry, the deletion of the file failed. Maybe the directory is not writeable from the webserver?"
+msgstr "Ne pare rau, dar stergerea fisierului nu a fost posibila. Verificati permisiunile directorului."
+
+#: article2pdf.php:466
+msgid "Sorry, we can't delete the file that is currently set as template file."
+msgstr "Ne pare rau, nu putem efectua stergerea pentru ca fisierul este folosit ca sablon."
+
+#: article2pdf.php:471
+msgid "No file selected, no file deleted. That was easy..."
+msgstr "Nici un fisier selectat, nici un fisier sters. A fost usor..."
+
+#: article2pdf.php:489
+msgid "Upload successful. Now you can use the pdf file as template. Just configure that in the article2pdf options."
+msgstr "Transmis cu succes. Acum puteti folosi fisierul PDF ca sablon. Configureaza pe acesta in optiunile article2pdf."
+
+#: article2pdf.php:494
+msgid "Sorry, the file could not moved to the target directory. Maybe the directory is not writeable from the webserver?"
+msgstr "Ne pare rau, fisierul nu a putut fi mutat in directorul respectiv. Probabil ca directorul nu este inscriptibil ?"
+
+#: article2pdf.php:500
+msgid "This is not a pdf file. Upload failed."
+msgstr "Acesta nu este un fisier PDF. Trimitere esuata."
+
+#: article2pdf.php:506
+msgid "Sorry, the directory is not writeable by the webserver. Please set the correct owner."
+msgstr "Ne pare rau, dar directorul nu este inscriptibil. Va rugam sa setati atributiile necesare (ex. chmod 777)."
+
+#: article2pdf.php:512
+msgid "No upload file? Sorry, dave..."
+msgstr "Nici un fisiere de transmis? Ne pare rau."
+
+#: article2pdf.php:525
+msgid "Options updated."
+msgstr "Optiunile au fost salvate."
+
+#: article2pdf.php:530
+msgid "article2pdf plugin admin page"
+msgstr "Pagina de administrare a pluginului article2pdf"
+
+#: article2pdf.php:538
+msgid "article2pdf options"
+msgstr "Optiuni article2pdf"
+
+#: article2pdf.php:540
+msgid "PDF template file"
+msgstr "Sablon PDF."
+
+#: article2pdf.php:543
+msgid "To use a pdf file as template for your genereated pdf files, just place the template file in /wp-content/plugins/article2pdf/contributed/pdftemplates/ and choose the file from the select box."
+msgstr "Pentru a folosi un fisier PDF ca template pentru fisierele generare, puneti sablon in directorul /wp-content/plugins/article2pdf/contributed/pdftemplates/ si alegeti fisierul din lista de selectii."
+
+#: article2pdf.php:546
+msgid "none"
+msgstr "nici unul "
+
+#: article2pdf.php:564
+msgid "PDF Page Margins (unit is millimeters)"
+msgstr "Marginea PDF (in milimetrii)"
+
+#: article2pdf.php:567
+msgid "Set your page margins here..."
+msgstr "Seteaza marginile paginii aici..."
+
+#: article2pdf.php:577
+msgid "Include pictures into the pdf file?"
+msgstr "Include poze in fisierele PDF?"
+
+#: article2pdf.php:580
+msgid "Set if pictures in the article should be included into the generated pdf file."
+msgstr "Seteaza daca pozele pot fi incluse in fisierele PDF generate."
+
+#: article2pdf.php:583
+#: article2pdf.php:595
+msgid "No, please not"
+msgstr "Nu, nu se poate."
+
+#: article2pdf.php:584
+#: article2pdf.php:596
+msgid "Yes, do that!"
+msgstr "Da, de acord!"
+
+#: article2pdf.php:589
+msgid "Output publication date before the post title?"
+msgstr "Data publicata sa fie inainte de data articolului?"
+
+#: article2pdf.php:592
+msgid "Set if the publication date should be printed at the beginning of the post title."
+msgstr "Seteaza daca data de publicare sa fie printata la inceputul articolului."
+
+#: article2pdf.php:601
+msgid "Use date format"
+msgstr "Foloseste format"
+
+#: article2pdf.php:604
+msgid "Define the date format used for printing out the date. Read http://php.net/strftime if you are uncertain what to enter."
+msgstr "Defineste formatul datei folosita pentru printarea ei. Citeste http://php.net/strftime daca nu stii ce sa introduci."
+
+#: article2pdf.php:610
+msgid "Use date locale"
+msgstr "Foloseste data din server"
+
+#: article2pdf.php:613
+msgid "Define the date format locale information, eg: de_DE for Germany, nl_NL for netherlands, en_US, for the States and so on."
+msgstr "Defineste formatul de date dintr-un fisier local, de exemplu: de_DE pentru Germania, nl_NL pentru Olanda, es_ES pentru Spania, ro_RO pentru Romania si asa mai departe."
+
+#: article2pdf.php:619
+msgid "Use font"
+msgstr "Foloseste font"
+
+#: article2pdf.php:622
+msgid "Define the font that is used to generate text in the pdf file, have a look to the directory /wp-content/plugins/article2pdf/contributed/pdffonts/ and find out which other fonts are available."
+msgstr "Defineste fontul folosit pentru generarea fisierului PDF, vizualizeaza directorul / wp-content/plugins/article2pdf/contributed/pdffonts / pentru a vedea font-urile disponibile."
+
+#: article2pdf.php:628
+msgid "Use font size"
+msgstr "Marime font"
+
+#: article2pdf.php:631
+msgid "Enter the font size that should be used when writing text."
+msgstr "Introdu marimea fontului folosit atunci cand scrieti un text."
+
+#: article2pdf.php:637
+msgid "Line height"
+msgstr "Inaltimea liniei"
+
+#: article2pdf.php:640
+msgid "Use the given line heigth. Hint: Set it to half of the fontsize and you will get good results."
+msgstr "Foloseste inaltimea liniei prestabilita . Sugestie: Seteaza la jumatatea dimensiunii fontului si vei avea un rezultat bun."
+
+#: article2pdf.php:646
+msgid "Cache options"
+msgstr "Optiuni Magazie (Cache)"
+
+#: article2pdf.php:649
+msgid "Enter the time in seconds that pdf files are delivered from cache before they are recreated. Enter 0 to deactivate caching."
+msgstr "Introdu timpul in secunde pentru fisierele PDF livrate din magazine inainte de a fi create. Introdu cifra 0 pentru a dezactiva magazia."
+
+#: article2pdf.php:652
+msgid "Popular values: 3600 = 1 hour, 21600 = 6 hours, 86400 = 1 day"
+msgstr "Valori populare: 3600 = 1 ora, 21600 = 6 ore, 86400 = 1 zi"
+
+#: article2pdf.php:655
+msgid "Update options"
+msgstr "Actualizare Optiuni"
+
+#: article2pdf.php:666
+msgid "Upload a new pdf template file"
+msgstr "Uploadeaza un nou sablon PDF"
+
+#: article2pdf.php:668
+msgid "Choose pdf template file from your local disk"
+msgstr "Alege sablonul PDF din calculatorul tau"
+
+#: article2pdf.php:674
+msgid "Important: The directory /wp-content/plugins/article2pdf/contributed/pdftemplates must be writeable for your webserver, or the upload will fail. If you have problems, set the owner and group of the directory to the user and group of your webserver (chown www-user.www-group for example)."
+msgstr "Important: Directorul /wp-content/plugins/article2pdf/contributed/pdftemplates trebuie sa fie inscriptibil sau trimiterea fisierelor nu va fi posibila. Daca aveti probleme, setati proprietatile directorul prin comanda chmod 777."
+
+#: article2pdf.php:675
+msgid "Upload file"
+msgstr "Trimite fisier"
+
+#: article2pdf.php:686
+msgid "Delete a pdf template file"
+msgstr "Sterge un sablon PDF"
+
+#: article2pdf.php:688
+msgid "Choose template file and submit the form"
+msgstr "Selecteaza un sablon si trimite-l"
+
+#: article2pdf.php:694
+msgid "Important: Do not choose the template file that is currently in use. The file will not be deleted if you do."
+msgstr "Important: Nu selectati sablon PDF care este momentan in uz. Acesta nu va fi sters."
+
+#: article2pdf.php:695
+msgid "Delete file"
+msgstr "Sterge fisier"
+
+#: article2pdf.php:706
+msgid "Cache status"
+msgstr "Statut magazie"
+
+#: article2pdf.php:708
+msgid "List of cached files (red: expired, green: pdf is delivered from cache)"
+msgstr "Lista fisierelor din magazie (rosu: expirat, verde: PDF este livrat din magazie)"
+
+#: article2pdf.php:740
+msgid "Sorry, no files are cached at the moment."
+msgstr "Ne pare rau, nu se afla nici un fisier in magazie."
+
+#: article2pdf.php:742
+msgid "Caching is disabled."
+msgstr "Magazie nu este folosita."
+
+#: article2pdf.php:748
+msgid "files are cached."
+msgstr "Fisierele sunt inmagazinate."
+
+#: article2pdf.php:749
+msgid "files are cached and outdated."
+msgstr "Fisierele sunt inmagazinate si invechite."
+
+#: article2pdf.php:750
+msgid "files are cached total."
+msgstr "Fisiere inmagazinate total."
+
+#: article2pdf.php:753
+msgid "Delete all cache files and force recreation"
+msgstr "Sterge toate fisierele inmagazinate si forteaza recrearea lor"
+
+#: article2pdf.php:762
+msgid "Donate &amp; support"
+msgstr "Doneaza &amp; ajuta"
+
+#: article2pdf.php:764
+msgid "Please"
+msgstr "Te rog "
+
+#: article2pdf.php:764
+msgid "DONATE"
+msgstr "DONEAZA"
+
+#: article2pdf.php:764
+msgid "if you like this plugin."
+msgstr "daca gasesti acest plugin util."
+
+#: article2pdf.php:765
+msgid "Many thanks to Oliver for the great"
+msgstr "Multe multumiri lui Oliver pentru aceasta minunata"
+
+#: article2pdf.php:765
+msgid "FPDF library"
+msgstr "Librarie FPDF"
+
+#: article2pdf.php:766
+msgid "If you need support, want to report bugs or suggestions, drop me an "
+msgstr "Daca aveti nevoie de ajutor, doriti sa raportati erori sau aveti sugestii, trimiteti-mi un "
+
+#: article2pdf.php:766
+msgid "email"
+msgstr "E-Mail"
+
+#: article2pdf.php:766
+msgid "or visit the"
+msgstr "sau viziteaza"
+
+#: article2pdf.php:766
+msgid "plugin homepage"
+msgstr "Pagina plugin-ului"
+
+#: article2pdf.php:767
+msgid "Translations: "
+msgstr "Traduceri: "
+
+#: article2pdf.php:768
+msgid "Final statements: Code is poetry. Motorcycles are cooler than cars."
+msgstr "Declaratii: Codul este ca poezia. Motocicletele sunt mai misto decat masinile."
+

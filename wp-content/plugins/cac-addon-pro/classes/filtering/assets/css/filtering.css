@@ -1,0 +1,8 @@
+/* =Button
+-------------------------------------------------------------- */
+.column-meta .column_label .inner .filtering {
+	padding-left: 4px;
+}
+.column-meta .column_label .inner .filtering.on {
+	color: #21759B;
+}

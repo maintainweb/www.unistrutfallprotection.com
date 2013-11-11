@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Edit Areas
+*
+*--------------------------------------------------------------------------------------------*/
+
+.live_edit-active {
+	box-shadow: 0 0 2px #2D90E5, inset 0 0 2px #2D90E5;
+}
+
+.live_edit-edit-button {	
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	display: block;
+	background: url("../../../../wp-admin/images/white-grad.png") repeat-x scroll left top #F2F2F2;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	border: #bbb solid 1px;
+	
+	color: #464646;
+	text-shadow: 0 1px 0 #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 4px 8px 5px;
+	
+	cursor: pointer;
+	z-index: 9;
+}
+
+.live_edit-edit-button:hover {
+	border-color: #666;
+}
+
+.live_edit-enabled {
+	position: relative;
+}
+
+
+/*--------------------------------------------------------------------------------------------
+*
+*	Panel
+*
+*--------------------------------------------------------------------------------------------*/
+
+#live_edit-vail {
+	position: absolute;
+	z-index: 999;
+	
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	display: none;
+}
+
+#live_edit-panel {
+	width: 0px;
+	height: 100%;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 99998;
+	overflow: hidden;
+}
+
+#live_edit-iframe-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	
+	display: none;
+}
+
+#live_edit-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: inherit;
+	height: 100%;
+	z-index: 1;
+	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2) inset;
+	background: #fff;
+	overflow: auto;
+}
+
+
+.ui-resizable-handle { position: absolute;font-size: 0.1px; z-index: 99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; cursor: default; }
+.ui-resizable-e { 
+	width: 3px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	border-right: #ccc solid 1px;
+	z-index: 3;
+	
+	cursor: ew-resize;
+}

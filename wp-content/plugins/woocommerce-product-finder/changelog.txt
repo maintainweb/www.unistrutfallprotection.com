@@ -1,0 +1,15 @@
+*** Product Finder Changelog ***
+
+2013.08.22 - version 1.1.1
+ * Improving loading of search results template
+ * Improving search results loading and display
+
+2013.04.09 - version 1.1
+ * Added option that allows a default form attribute to be set
+ * Fixed admin displays (settings and widget) to use attribute labels instead of slugs
+
+2013.03.15 - version 1.0.1
+ * Fixed criteria selection to use attribute label instead of slug
+
+2013.03.07 - version 1.0.0
+ * Initial release.

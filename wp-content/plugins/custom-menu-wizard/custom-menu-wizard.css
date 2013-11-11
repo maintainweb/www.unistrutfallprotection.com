@@ -1,0 +1,56 @@
+/**
+ * custom-menu-wizard.css
+ * Version: 2.0.2
+ */
+/*widget admin style...*/
+/*NB .widget-content class is not present in accessibility mode*/
+.js .widget-content .widget-custom-menu-wizard-onchange .cmw-start-fieldset-collapsed {display:none;}
+.widget-custom-menu-wizard-onchange .cmw-colour-grey {color:#999999;}
+.widget-custom-menu-wizard-onchange .cmw-pad-left-1 {padding-left:1em;}
+.widget-custom-menu-wizard-onchange .cmw-off-the-page {display:none; position:absolute; left:-5000px; top:-5000px;}
+.widget-custom-menu-wizard-onchange .cmw-toggle-assist {float:right; line-height:1; margin-left:1em;}
+.widget-custom-menu-wizard-collapsible-fieldset {margin:0 0 0.5em; cursor:pointer;}
+.widget-custom-menu-wizard-collapsible-fieldset h3 {font-size:1em; margin:0; padding:2px 0.5em;}
+.widget-custom-menu-wizard-collapsible-fieldset div {background-color:#transparent; background-repeat:no-repeat; background-position:0 -36px; height:16px; width:16px; float:right; outline:0 none;}
+.js .widget-content .widget-custom-menu-wizard-collapsible-fieldset div.cmw-collapsed-fieldset {background-position:0 0;}
+.widget-custom-menu-wizard-disableifnot-rp, .widget-custom-menu-wizard-disableifnot-ci {line-height:1.3333;}
+.widget-custom-menu-wizard-childrenof optgroup option {padding-left:0.75em;}
+select.widget-custom-menu-wizard-listen {max-width:100%;}
+/*dialog style...*/
+/*...menu...*/
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu {margin:0; font-size:0.8333em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu ul {font-size:10px; list-style-type:none; margin:0.5em 0; padding:0;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu ul ul {margin:0 0 0 5em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu li {display:block; margin:0; padding:0;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu a {display:inline-block; text-align:center; padding:3px 4px; margin:2px; color:#333333; text-decoration:none;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu a:focus {outline:0 none;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu input {vertical-align:top; visibility:hidden}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu ul span {display:block; width:10em; padding:0 2px; height:1.75em; line-height:1.75; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; border:1px solid #999999; box-shadow:2px 2px 2px 0px #666666;}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu .current-menu-ancestor {border-color:#cccc00 !important; background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 153, 1)), to(rgba(255, 255, 153, 0.1))); background-image:-webkit-linear-gradient(top, rgba(255, 255, 153, 1), rgba(255, 255, 153, 0.1)); background-image:-moz-linear-gradient(top, rgba(255, 255, 153, 1), rgba(255, 255, 153, 0.1)); background-image:-ms-linear-gradient(top, rgba(255, 255, 153, 1), rgba(255, 255, 153, 0.1)); background-image:-o-linear-gradient(top, rgba(255, 255, 153, 1), rgba(255, 255, 153, 0.1)); background-image:linear-gradient(to bottom, rgba(255, 255, 153, 1), rgba(255, 255, 153, 0.1)); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff99, endColorstr=#1affff99); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff99, endColorstr=#1affff99)";}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu .current-menu-item {border-color:#cc0000 !important; background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 204, 204, 1)), to(rgba(255, 204, 204, 0.1))); background-image:-webkit-linear-gradient(top, rgba(255, 204, 204, 1), rgba(255, 204, 204, 0.1)); background-image:-moz-linear-gradient(top, rgba(255, 204, 204, 1), rgba(255, 204, 204, 0.1)); background-image:-ms-linear-gradient(top, rgba(255, 204, 204, 1), rgba(255, 204, 204, 0.1)); background-image:-o-linear-gradient(top, rgba(255, 204, 204, 1), rgba(255, 204, 204, 0.1)); background-image:linear-gradient(to bottom, rgba(255, 204, 204, 1), rgba(255, 204, 204, 0.1)); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffcccc, endColorstr=#1affcccc); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffcccc, endColorstr=#1affcccc)";}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu .current-menu-parent {border-color:#ff9900 !important; background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 204, 153, 1)), to(rgba(255, 204, 153, 0.1))); background-image:-webkit-linear-gradient(top, rgba(255, 204, 153, 1), rgba(255, 204, 153, 0.1)); background-image:-moz-linear-gradient(top, rgba(255, 204, 153, 1), rgba(255, 204, 153, 0.1)); background-image:-ms-linear-gradient(top, rgba(255, 204, 153, 1), rgba(255, 204, 153, 0.1)); background-image:-o-linear-gradient(top, rgba(255, 204, 153, 1), rgba(255, 204, 153, 0.1)); background-image:linear-gradient(to bottom, rgba(255, 204, 153, 1), rgba(255, 204, 153, 0.1)); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffcc99, endColorstr=#1affcc99); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffcc99, endColorstr=#1affcc99)";}
+.widget-custom-menu-wizard-dialog .cmw-demo-themenu .picked > a {background-color:#333366; color:#ffffff; font-weight:bold;}
+.widget-custom-menu-wizard-dialog .cmw-demo-filteritems input {visibility:visible}
+/*...shortcode...*/
+.widget-custom-menu-wizard-dialog .cmw-demo-theshortcode {clear:both; width:100%; margin:1em 0 0.5em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theshortcode code {border:1px solid #CCCCCC; display:inline-block; line-height:1.5; padding:0.25em 0.5em;}
+/*...output...*/
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput {float:right; margin:0 0 1em 2em; font-size:0.8333em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput h3 {border-bottom:1px solid #CCCCCC; margin:0 0 0.25em; padding: 0.5em 0 0.25em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap {margin:0.5em 0; padding:0 1em; border:1px solid #cccccc; min-height:2em; min-width:9em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ul, .widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ol {margin:0.5em 0 0.5em 1.5em; padding:0;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap li {margin:0;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap li ul {margin:0 0 0 1em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap li ol {margin:0 0 0 1.5em;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ul {list-style-type:disc;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ul ul {list-style-type:circle;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ul ul ul {list-style-type:square;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ul ul ul ul {list-style-type:disc;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ul ul ul ul ul {list-style-type:circle;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ol {list-style-type:decimal;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ol ol {list-style-type:upper-alpha;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ol ol ol {list-style-type:lower-alpha;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ol ol ol ol {list-style-type:lower-roman;}
+.widget-custom-menu-wizard-dialog .cmw-demo-theoutput-wrap ol ol ol ol ol {list-style-type:decimal;}
+.widget-custom-menu-wizard-dialog .cmw-demo-fallback {display:none; text-align:right; color:#006600;}
+.widget-custom-menu-wizard-dialog .cmw-demo-fallback.cmw-demo-fellback {display:block;}

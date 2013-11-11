@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: article2pdf wp plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-21 13:05+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marc Schieferdecker <m_schieferdecker@hotmail.com>\n"
+"Language-Team: das-motorrad-blog.de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: W:\\motorrad\\html\\wp-content\\plugins\\article2pdf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: article2pdf.php:444
+msgid "All cache files deleted."
+msgstr "Todos los ficheros en caché fueron borrados."
+
+#: article2pdf.php:457
+msgid "The file was successfully deleted."
+msgstr "El fichero se ha eliminado."
+
+#: article2pdf.php:461
+msgid "Sorry, the deletion of the file failed. Maybe the directory is not writeable from the webserver?"
+msgstr "Lo sentimos, la eliminación del fichero ha fallado. Tal vez el directorio no se tiene permisos de escritura."
+
+#: article2pdf.php:466
+msgid "Sorry, we can't delete the file that is currently set as template file."
+msgstr "Lo sentimos, no podemos borrar el fichero  que está actualmente establecido como fichero de plantilla."
+
+#: article2pdf.php:471
+msgid "No file selected, no file deleted. That was easy..."
+msgstr "Sin fichero seleccionado, no hay fichero borrado."
+
+#: article2pdf.php:489
+msgid "Upload successful. Now you can use the pdf file as template. Just configure that in the article2pdf options."
+msgstr "Subida exitosa. Ahora puedes usar el fichero PDF como plantilla. Solamente configure las opciones de article2pdf."
+
+#: article2pdf.php:494
+msgid "Sorry, the file could not moved to the target directory. Maybe the directory is not writeable from the webserver?"
+msgstr "Lo sentimos, el fichero  no puede trasladarse al directorio de destino. ¿Tal vez el directorio no tiene permisos de escritura?"
+
+#: article2pdf.php:500
+msgid "This is not a pdf file. Upload failed."
+msgstr "Éste no es un PDF. Carga fallida."
+
+#: article2pdf.php:506
+msgid "Sorry, the directory is not writeable by the webserver. Please set the correct owner."
+msgstr "Lo sentimos, pero el directorio no es escribible por el servidor web. Por favor introduzca propietario correcto."
+
+#: article2pdf.php:512
+msgid "No upload file? Sorry, dave..."
+msgstr "¿Fichero no subido? Lo siento."
+
+#: article2pdf.php:525
+msgid "Options updated."
+msgstr "Opciones actualizadas."
+
+#: article2pdf.php:530
+msgid "article2pdf plugin admin page"
+msgstr "Página de administración del plugin article2pdf"
+
+#: article2pdf.php:538
+msgid "article2pdf options"
+msgstr "Opciones de article2pdf"
+
+#: article2pdf.php:540
+msgid "PDF template file"
+msgstr "Plantilla PDF."
+
+#: article2pdf.php:543
+msgid "To use a pdf file as template for your genereated pdf files, just place the template file in /wp-content/plugins/article2pdf/contributed/pdftemplates/ and choose the file from the select box."
+msgstr "Para utilizar un fichero  pdf como plantilla para sus PDFs generados, sólo coloque el fichero de plantilla en /wp-content/plugins/article2pdf/contributed/pdftemplates/ y elegir el fichero  de la caja de selección."
+
+#: article2pdf.php:546
+msgid "none"
+msgstr "ninguno "
+
+#: article2pdf.php:564
+msgid "PDF Page Margins (unit is millimeters)"
+msgstr "Márgenes del PDF (en milímetros)"
+
+#: article2pdf.php:567
+msgid "Set your page margins here..."
+msgstr "Configurar los márgenes de página aquí..."
+
+#: article2pdf.php:577
+msgid "Include pictures into the pdf file?"
+msgstr "¿Incluír fotos en el PDF?"
+
+#: article2pdf.php:580
+msgid "Set if pictures in the article should be included into the generated pdf file."
+msgstr "Establecer si las imágenes en el artículo deberían incluirse en el PDF generado."
+
+#: article2pdf.php:583
+#: article2pdf.php:595
+msgid "No, please not"
+msgstr "No, por favor no."
+
+#: article2pdf.php:584
+#: article2pdf.php:596
+msgid "Yes, do that!"
+msgstr "¡Sí, haz ésto!"
+
+#: article2pdf.php:589
+msgid "Output publication date before the post title?"
+msgstr "¿Usar fecha de publicación antes del título?"
+
+#: article2pdf.php:592
+msgid "Set if the publication date should be printed at the beginning of the post title."
+msgstr "Establecer si la fecha de publicación debe ser impresa al inicio del título."
+
+#: article2pdf.php:601
+msgid "Use date format"
+msgstr "Usar formato de fecha"
+
+#: article2pdf.php:604
+msgid "Define the date format used for printing out the date. Read http://php.net/strftime if you are uncertain what to enter."
+msgstr "Definir el formato de la fecha utilizada para imprimir la fecha. Leer http://php.net/strftime si no está seguro qué formato usar."
+
+#: article2pdf.php:610
+msgid "Use date locale"
+msgstr "Usar fecha local"
+
+#: article2pdf.php:613
+msgid "Define the date format locale information, eg: de_DE for Germany, nl_NL for netherlands, en_US, for the States and so on."
+msgstr "Definir el formato de la fecha de información local, por ejemplo: de_DE para Alemania, nl_NL para los Países Bajos, es_ES para España y así sucesivamente."
+
+#: article2pdf.php:619
+msgid "Use font"
+msgstr "Usar fuente"
+
+#: article2pdf.php:622
+msgid "Define the font that is used to generate text in the pdf file, have a look to the directory /wp-content/plugins/article2pdf/contributed/pdffonts/ and find out which other fonts are available."
+msgstr "Definir el tipo de letra que se utiliza para generar el texto en el fichero pdf, echar un vistazo al directorio / wp-content/plugins/article2pdf/contributed/pdffonts / y averiguar qué otras fuentes hay."
+
+#: article2pdf.php:628
+msgid "Use font size"
+msgstr "Usar tamaño de la fuente"
+
+#: article2pdf.php:631
+msgid "Enter the font size that should be used when writing text."
+msgstr "Introduzca el tamaño de la fuente que debe utilizarse para  la escritura de texto."
+
+#: article2pdf.php:637
+msgid "Line height"
+msgstr "Altura de la línea"
+
+#: article2pdf.php:640
+msgid "Use the given line heigth. Hint: Set it to half of the fontsize and you will get good results."
+msgstr "Usar la altura de línea determinada . Sugerencia: Establecer la mitad de la fuente y obtendrá buenos resultados."
+
+#: article2pdf.php:646
+msgid "Cache options"
+msgstr "Opciones de Caché"
+
+#: article2pdf.php:649
+msgid "Enter the time in seconds that pdf files are delivered from cache before they are recreated. Enter 0 to deactivate caching."
+msgstr "Introduzca el tiempo en segundos que se entregan los ficheros pdf de caché antes de ser recreado. Introduzca 0 para desactivar la memoria caché."
+
+#: article2pdf.php:652
+msgid "Popular values: 3600 = 1 hour, 21600 = 6 hours, 86400 = 1 day"
+msgstr "Valores populares: 3600 = 1 hora, 21600 = 6 horas, 86400 = 1 día"
+
+#: article2pdf.php:655
+msgid "Update options"
+msgstr "Actualizar opciones"
+
+#: article2pdf.php:666
+msgid "Upload a new pdf template file"
+msgstr "Subir una nueva plantilla de PDF"
+
+#: article2pdf.php:668
+msgid "Choose pdf template file from your local disk"
+msgstr "Elegir plantilla PDFdesde tu disco local"
+
+#: article2pdf.php:674
+msgid "Important: The directory /wp-content/plugins/article2pdf/contributed/pdftemplates must be writeable for your webserver, or the upload will fail. If you have problems, set the owner and group of the directory to the user and group of your webserver (chown www-user.www-group for example)."
+msgstr "Importante: El directorio /wp-content/plugins/article2pdf/contributed/pdftemplates debe tener permisos de escritura, o fallará."
+
+#: article2pdf.php:675
+msgid "Upload file"
+msgstr "Subir fichero"
+
+#: article2pdf.php:686
+msgid "Delete a pdf template file"
+msgstr "Borrar plantilla de PDF"
+
+#: article2pdf.php:688
+msgid "Choose template file and submit the form"
+msgstr "Elegir la plantilla y enviar el formulario"
+
+#: article2pdf.php:694
+msgid "Important: Do not choose the template file that is currently in use. The file will not be deleted if you do."
+msgstr "Importante: No elija el fichero de plantilla que está actualmente en uso. El archivo no se eliminará si lo hace."
+
+#: article2pdf.php:695
+msgid "Delete file"
+msgstr "Borrar fichero"
+
+#: article2pdf.php:706
+msgid "Cache status"
+msgstr "Estado del caché"
+
+#: article2pdf.php:708
+msgid "List of cached files (red: expired, green: pdf is delivered from cache)"
+msgstr "Lista de ficheros en caché (rojo: vencido, verde: PDF en caché)"
+
+#: article2pdf.php:740
+msgid "Sorry, no files are cached at the moment."
+msgstr "Lo siento, no hay ficheros en caché en éste momento."
+
+#: article2pdf.php:742
+msgid "Caching is disabled."
+msgstr "Caché deshabilitado."
+
+#: article2pdf.php:748
+msgid "files are cached."
+msgstr "Ficheros en caché."
+
+#: article2pdf.php:749
+msgid "files are cached and outdated."
+msgstr "Ficheros en caché y fuera de fecha."
+
+#: article2pdf.php:750
+msgid "files are cached total."
+msgstr "Ficheros totalmente en cache."
+
+#: article2pdf.php:753
+msgid "Delete all cache files and force recreation"
+msgstr "Borrar todos los ficheros en caché y forzar recreación"
+
+#: article2pdf.php:762
+msgid "Donate &amp; support"
+msgstr "Donar &amp; soporte"
+
+#: article2pdf.php:764
+msgid "Please"
+msgstr "Por favor "
+
+#: article2pdf.php:764
+msgid "DONATE"
+msgstr "Dona"
+
+#: article2pdf.php:764
+msgid "if you like this plugin."
+msgstr "si te gusta éste plugin."
+
+#: article2pdf.php:765
+msgid "Many thanks to Oliver for the great"
+msgstr "Muchas gracias a Oliver por la gran"
+
+#: article2pdf.php:765
+msgid "FPDF library"
+msgstr "Librería FPDF"
+
+#: article2pdf.php:766
+msgid "If you need support, want to report bugs or suggestions, drop me an "
+msgstr "Si necesita apoyo, quiere informar de errores o sugerencias, envíeme un "
+
+#: article2pdf.php:766
+msgid "email"
+msgstr "E-Mail"
+
+#: article2pdf.php:766
+msgid "or visit the"
+msgstr "o visita la"
+
+#: article2pdf.php:766
+msgid "plugin homepage"
+msgstr "Página del plugin"
+
+#: article2pdf.php:767
+msgid "Translations: "
+msgstr "Traducciones: "
+
+#: article2pdf.php:768
+msgid "Final statements: Code is poetry. Motorcycles are cooler than cars."
+msgstr "Declaraciones finales: El código es poesía. Las motocicletas molan más que los coches."
+
